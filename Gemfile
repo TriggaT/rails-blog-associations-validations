@@ -8,7 +8,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'uglifier'
 gem 'bootsnap'
 
-gem 'sqlite3', '~>1.3.6'
+gem 'sqlite3', '~> 1.3', '< 1.3.11'
 
 group :development, :test do
   gem 'rack_session_access'
